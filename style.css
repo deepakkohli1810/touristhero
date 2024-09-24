@@ -100,7 +100,7 @@ a {
     display: none;
     position: absolute;
     right: 3rem;
-    top: 70px;
+    top: 90px;
     width: 300px;
     height: 0px;
     background-color: rgb(255, 254, 254);
@@ -482,7 +482,6 @@ video{
     width: 30%;
     border-radius: 2rem;
     background-size: cover;
-    background-color:#f5a74f;
     transition:all ease-out 0.1s;
     transition: 0.5s;
     color: white;
@@ -1715,11 +1714,20 @@ border-radius:10px;
 }
 .book-tour-right input {
     width: 100%;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: 1px solid #555252 ;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid grey;
     font-size: 18px;
+   
+}
+.book-tour-right input:focus{
+    outline: 2px solid #f5a74f;
+    border: none;
     
+}
+.book-tour-right select:focus {
+    outline: 2px solid #f5a74f;
+    border: none;
 }
 .book-tour-right h3 {
     margin-top: 1.5rem;
@@ -1746,10 +1754,19 @@ border-radius:10px;
 }
 .book-tour-inputs input ,select {
     width: 70%;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: 1px solid #555252 ;
+    padding: .8rem;
+    border-radius: 10px;
+    border: 1px solid rgb(127, 126, 126);
     font-size: 16px;
+    
+}
+.book-tour-inputs input:focus{
+    outline: 2px solid #f5a74f;
+    border: none;
+}
+.book-tour-inputs select:focus{
+    outline: 2px solid #f5a74f;
+    border: none;
 }
 .book-tour-inputs , .book-tour-button  {
     width: 100%;
